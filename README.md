@@ -1,8 +1,8 @@
-## Tienda Virtual de Libros
+# Tienda Virtual de Libros
 
-Proyecto de Programación II (UPTC). Un aplicativo de escritorio en lenguaje Java para una librería que quiere tener su propio ecommerce: manejando el catálogo de libros, regitro de clientes, carrito de compras y la generación del recibo al finalizar la compra.
+Proyecto de Programación II (UPTC). Una aplicación de escritorio en Java para una librería que quiere vender por internet: maneja el catálogo de libros, el registro de clientes, el carrito de compras y la generación del recibo al finalizar la compra.
 
-## ¿Cómo funciona?
+## ¿Qué usa?
 
 - Java 21 y Swing (JFrame, JPanel, JTable)
 - Arquitectura en capas: presentación, negocio y persistencia
@@ -10,6 +10,7 @@ Proyecto de Programación II (UPTC). Un aplicativo de escritorio en lenguaje Jav
 
 ## Prototipo de la interfaz
 
+![Prototipo de la interfaz](images/prototipo.png)
 
 ## Guía para el equipo
 
@@ -34,6 +35,6 @@ src/co/uptc/edu/
 
 ## Integrantes
 
-- Luis Nausa
-- Yamid Vargas
-- Kevin Manrique
+- Juan Pablo Barrero (@kanonufo)
+- Liz Rojas
+- Alexander Manrique
