@@ -1,6 +1,6 @@
 # Guía del Proyecto — Tienda Virtual de Libros
 
-Documento para todo el equipo. Aquí está explicado qué vamos a construir, cómo funciona por dentro, qué le toca a cada uno y cómo trabajamos juntos con Git y GitHub. Léanlo completo antes de escribir código.
+Documento para todo el equipo. Aquí está explicado qué vamos a construir, cómo funciona por dentro, qué debe hacer cada uno y cómo trabajamos juntos con Git y GitHub. Léanlo completo antes de escribir código.
 
 ---
 
@@ -8,9 +8,9 @@ Documento para todo el equipo. Aquí está explicado qué vamos a construir, có
 
 ### ¿Qué vamos a construir?
 
-Una **aplicación de escritorio en Java** que simula una librería que quiere vender libros por internet. El programa se abre en un computador, se maneja con ventanas (usamos Swing) y guarda la información en archivos para que no se pierda al cerrar.
+Un **aplicativo de escritorio en Java** que simula una librería que quiere tener un ecommerce. El programa se abre en un computador, se usa a través ventanas (usamos Swing) y guarda la información en archivos para que no se pierda al cerrar.
 
-Es una tienda virtual, pero sin página web: todo ocurre en ventanas de Java, como las que diseñamos en el prototipo que está en el README del repositorio.
+Es un ecommerce (tienda virtual), pero sin página web: todo funciona en ventanas de Java, como las que diseñamos en el prototipo que está en el README del repositorio.
 
 ### ¿Qué se puede hacer en la aplicación?
 
@@ -114,7 +114,7 @@ El caso de estudio pide una **arquitectura multicapa**. Eso significa que el có
 - **util** lo pueden usar todos los paquetes.
 - **Prohibido:** que una ventana haga cálculos, que una ventana toque archivos, o que la persistencia abra ventanas.
 
-¿Por qué? Porque si un día cambiamos los archivos JSON por una base de datos, solo se toca el paquete persistencia y las ventanas no se enteran. Y porque el profesor revisa exactamente esto.
+¿Por qué? Porque si un día cambiamos los archivos JSON por una base de datos, solo se modifica el paquete persistencia y las ventanas no se enteran. Y porque el profesor revisa exactamente esto.
 
 ### 3.2 El paquete gui (presentación)
 
